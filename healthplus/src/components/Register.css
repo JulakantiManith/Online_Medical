@@ -1,0 +1,101 @@
+/* Register.css */
+html, .register-body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure html and body take full height */
+  overflow: hidden; /* Disable scroll */
+}
+
+.register-body {
+  background-image: url('../images/hi.jpg'); /* Set the background image on the body */
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-position: center; /* Center the background image */
+}
+
+.register-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align items at the top vertically */
+  height: 100vh; /* Full height for the container */
+  padding-top: 20px; /* Add some padding at the top */
+  justify-content: space-around;
+}
+
+.form-container {
+  max-width: 400px; /* Set a consistent max width */
+  height: 400px; /* Set a fixed height for the form container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 30px; /* Add padding inside the box */
+  border: 1px solid #ccc; /* Optional: add a border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add some shadow */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+}
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between each input group */
+}
+
+.form-group label {
+  display: block; /* Ensure label is on its own line */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-group input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Add some padding */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.password-input-wrapper {
+  position: relative; /* Set position to relative */
+}
+
+.password-input-wrapper input {
+  width: 100%; /* Full width for input */
+  padding-right: 40px; /* Add padding to prevent overlap with the icon */
+}
+
+.password-toggle-icon {
+  position: absolute; /* Position the icon */
+  right: 10px; /* Place it on the right */
+  top: 34%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for vertical alignment */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1.2rem; /* Adjust icon size */
+}
+
+button {
+  padding: 10px; /* Add some padding for the button */
+  background-color: #4CAF50; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Full width for button */
+  font-size: 16px; /* Increase button font size */
+}
+
+button:hover {
+  background-color: #45a049; /* Darken button on hover */
+}
+
+p {
+  text-align: center; /* Center the text */
+  margin-top: 15px; /* Space above the paragraph */
+}
+
+p a {
+  color: #4CAF50; /* Link color */
+  text-decoration: none; /* Remove underline from link */
+}
+
+p a:hover {
+  text-decoration: underline; /* Underline link on hover */
+}

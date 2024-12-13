@@ -1,0 +1,23 @@
+.prescription-view {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .prescription-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .prescription-table th,
+  .prescription-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .prescription-table th {
+    background-color: #f4f4f4;
+  }
+  

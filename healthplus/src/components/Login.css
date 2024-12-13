@@ -1,0 +1,96 @@
+/* Reset margins and padding */
+/* Reset margins and padding */
+html, .main-background {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Disable scroll */
+}
+
+.main-background {
+  background-image: url('../images/hi.jpg'); /* Ensure path to image is correct */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps image fixed while scrolling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  height:850px;
+}
+
+
+/* Login container styling */
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin: 0 0 20px;
+  font-size: 1.8em;
+  color: #333;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1979bd;
+}
+
+/* Additional text styling */
+p {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+p a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

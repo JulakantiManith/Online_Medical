@@ -1,0 +1,117 @@
+/* Full-Screen Overlay for Payment Page */
+.payment-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Darkened background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  /* Image Styling */
+/* Image Styling */
+.payment-image {
+  display: block;
+  margin: 20px auto; /* Center the image and add space above and below */
+  width: 25%; /* Adjust to fit container width */
+  max-width: 500px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+}
+
+
+  
+  /* Container for the Payment Form */
+  .payment-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .payment-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form Styling */
+  .payment-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .payment-form-container label {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .payment-form-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-form-container button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* QR Code Styling */
+  .qr-code-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .qr-code-container h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .qr-code-container .qr-code {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Close Button Styling */
+  .close-btn {
+    margin-top: 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .close-btn:hover {
+    background-color: #e41c24;
+  }
+  

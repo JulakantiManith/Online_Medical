@@ -1,0 +1,73 @@
+.patientscreen-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .patientscreen-video-call {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .patientscreen-cancel-call-button {
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .patientscreen-chat-box {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .patientscreen-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .patientscreen-doctor-message {
+    color: blue;
+  }
+  
+  .patientscreen-patient-message {
+    color: green;
+  }
+  
+  .patientscreen-input-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .patientscreen-input {
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 80%;
+  }
+  
+  .patientscreen-button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .patientscreen-button:hover {
+    background-color: #218838;
+  }
+  

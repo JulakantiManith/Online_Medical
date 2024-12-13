@@ -1,0 +1,79 @@
+/* Full Width Navbar */
+.doc-navbar-container {
+  width: 100%; /* Ensure it spans the full screen width */
+  background-color: #000000; /* Black background */
+  padding: 1rem 2rem; /* Add more padding for better spacing */
+  display: flex;
+  justify-content: end; /* Space between the logo and the right-aligned content */
+  align-items: center; /* Align items vertically at the center */
+  position: fixed; /* Fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure navbar is on top */
+}
+
+/* Logo Styling */
+.doc-navbar-logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-right: auto; /* Pushes the content to the right */
+}
+
+/* Navbar Links Styling */
+.doc-navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px; /* Space between links */
+  margin: 0;
+  margin-right: 30px; /* Ensure there's space between the links and the edge of the navbar */
+}
+
+.doc-navbar-links li {
+  display: inline-block;
+}
+
+.doc-navbar-links a {
+  color: rgb(245, 245, 245); /* Light gray color */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.doc-navbar-links a:hover {
+  color: #c6c6c6; /* Change color on hover */
+}
+
+/* Logout Button Styling */
+.doc-navbar-logout-button {
+  padding: 8px 16px;
+  background-color: #f44336; /* Red background for logout */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.doc-navbar-logout-button:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .doc-navbar-container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 1rem; /* Less padding on small screens */
+  }
+
+  .doc-navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .doc-navbar-logo {
+    font-size: 20px; /* Adjust logo size for smaller screens */
+  }
+}

@@ -1,0 +1,47 @@
+.patient-page-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    color: #333;
+  }
+  
+  .patient-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .patient-header h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+  }
+  
+  .appointments-section, .patient-info-section {
+    margin-bottom: 40px;
+  }
+  
+  .appointments-section h2, .patient-info-section h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+  }
+  
+  .appointment-card, .info-card {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-details-btn, .edit-info-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-details-btn:hover, .edit-info-btn:hover {
+    background-color: #2980b9;
+  }

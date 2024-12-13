@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box; /* Include padding and border in element's total dimensions */
+  color: #323232;
+}
+
+nav1-links a {
+  color: rgb(14, 14, 14);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav1-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* White with slight opacity for transparency */
+  box-shadow: 0 2px 5px rgba(223, 220, 220, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  z-index: 1000;
+  overflow: hidden;
+  backdrop-filter: blur(5px); /* Adds blur effect for better readability */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav1-links {
+  color: rgb(29, 28, 28);
+  display: flex;
+  gap: 15px; /* Consistent space between links */
+  margin-left: auto;
+}
+
+.nav1-links a {
+  text-decoration: none;
+  color: #1a1818; /* Dark text color for readability */
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-weight: 600; /* Slightly bold for emphasis */
+  padding: 8px 12px; /* Padding for a larger clickable area */
+  border-radius: 5px;
+}
+
+.nav1-links a:last-child {
+  margin-left: 0;
+}
+
+.nav1-links a:hover {
+  color: #000000; /* Blue shade on hover */
+  background-color: rgba(0, 123, 255, 0.15); /* Light blue background on hover */
+}
+
+.nav1-logo {
+  font-size: 1.6rem;
+  color: #202020;
+  font-weight: bold;
+}
+
+.nav1-logo-img {
+  height: 45px; /* Adjusted height */
+  margin-right: 10px;
+}
